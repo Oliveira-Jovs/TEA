@@ -28,12 +28,10 @@ ds_autismo_crianca = ds_autismo_crianca.rename(columns=novos_nomes)
 for coluna in novos_nomes.values():
     ds_autismo_crianca[coluna] = ds_autismo_crianca[coluna].replace({1: 'Sim', 0: 'Não'})
 
-#print(ds_autismo_crianca.columns)
 
 ds_autismo_crianca['Class/ASD Traits '] = ds_autismo_crianca['Class/ASD Traits '].replace({'Yes': 'Sim', 'No': 'Não'})
 ds_autismo_crianca['Jaundice'] = ds_autismo_crianca['Jaundice'].replace({'yes': 'Sim', 'no': 'Não'})
 ds_autismo_crianca['Family_mem_with_ASD'] = ds_autismo_crianca['Family_mem_with_ASD'].replace({'yes': 'Sim', 'no': 'Não'})
-# Substituir valores na coluna 'Ethnicity' com as traduções
 ds_autismo_crianca['Ethnicity'] = ds_autismo_crianca['Ethnicity'].replace({
     'middle eastern': 'do Oriente Médio',
     'White European': 'Europeu Branco',

@@ -1,0 +1,15 @@
+﻿antecedents,consequents,support,confidence,lift
+"Se você ou alguém da família estiver visivelmente chateado, seu filho demonstra sinais de querer confortar a pessoa? (por exemplo, acariciando o cabelo, abraçando)",Quem_Completou_Teste_family member,0.6299810246679317,0.9693430656934306,1.0036223882523339
+Quem_Completou_Teste_family member,"Se você ou alguém da família estiver visivelmente chateado, seu filho demonstra sinais de querer confortar a pessoa? (por exemplo, acariciando o cabelo, abraçando)",0.6299810246679317,0.6522593320235757,1.0036223882523339
+Membro_família_TEA_no,Icterícia_no,0.6223908918406073,0.7420814479638009,1.02108857200241
+Icterícia_no,Membro_família_TEA_no,0.6223908918406073,0.856396866840731,1.02108857200241
+Quem_Completou_Teste_family member,Icterícia_no,0.698292220113852,0.7229862475442043,0.9948139750804064
+Icterícia_no,Quem_Completou_Teste_family member,0.698292220113852,0.9608355091383811,0.9948139750804064
+Quem_Completou_Teste_family member,Membro_família_TEA_no,0.8102466793168881,0.8388998035363459,1.000226688831797
+Membro_família_TEA_no,Quem_Completou_Teste_family member,0.8102466793168881,0.9660633484162896,1.000226688831797
+Quem_Completou_Teste_family member,Autismo_Yes,0.6660341555977229,0.6895874263261297,0.9983861914117318
+Autismo_Yes,Quem_Completou_Teste_family member,0.6660341555977229,0.9642857142857143,0.9983861914117317
+Sexo_m,Quem_Completou_Teste_family member,0.6707779886148008,0.9619047619047618,0.9959210403218262
+Quem_Completou_Teste_family member,Sexo_m,0.6707779886148008,0.694499017681729,0.9959210403218263
+Age_Mons_3 anos,Quem_Completou_Teste_family member,0.642314990512334,0.9699140401146132,1.0042135543033421
+Quem_Completou_Teste_family member,Age_Mons_3 anos,0.642314990512334,0.6650294695481336,1.0042135543033421
